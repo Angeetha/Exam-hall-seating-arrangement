@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Room Allocation</title>
+	<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css" integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js" integrity="sha384-OgVRvuATP1z7JjHLkuOU7Xw704+h835Lr+6QL9UvYjZE3Ipu6Tp75j7Bh/kR0JKI" crossorigin="anonymous"></script>
+	<script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
+ <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js" integrity="sha384-OgVRvuATP1z7JjHLkuOU7Xw704+h835Lr+6QL9UvYjZE3Ipu6Tp75j7Bh/kR0JKI" crossorigin="anonymous"></script>
+<style type="text/css">
+	.profile{
+		margin-left:900px; 
+	}
+	 
+ input[type=text], input[type=number] {
+  width: 100%;
+  padding: 12px 20px;
+  margin: 8px 0;
+  display: inline-block;
+  border: 1px solid #ccc;
+  box-sizing: border-box;
+}
+  
+.container {
+  padding-left: 330px;
+  padding-right: 330px;
+}
+ </style>
+</head>
+<body >
+
+	<nav class="navbar navbar-expand-lg navbar-dark bg-dark py-3">
+  <a class="navbar-brand" href="#">Exam room allocation</a>
+  <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+    <span class="navbar-toggler-icon"></span>
+  </button>
+
+  <div class="collapse navbar-collapse" id="navbarSupportedContent">
+    <ul class="navbar-nav mr-auto">
+    	<li class="nav-item" active>
+    		<a class="nav-link" href="#">Dashboard</a>
+    	</li>
+      <li class="nav-item">
+        <a class="nav-link" href="#"></a>
+      </li>
+      <li>
+      	<a class="nav-link" href="#"></a>
+      </li>
+        <div class="profile float-right">
+        <form class="form-inline my-2 my-lg-0 ">
+        <li class="nav-item">
+        <a class="nav-link" href="#">Profile</a>
+     </li>
+    </form>
+</div>
+</div>
+</nav>
+<br>
+<div class="text-center">
+<h1>EXAM ROOM ALLOCATION</h1>
+</div>
+<br>
+<div class="container-center my-0 bg-white px-2">
+    <form action="/action_page.php" method="post">
+<div class="container">
+          <label for="uname"><b>Student Name</b></label>
+          <input type="text" placeholder="Enter name" name="uname" required>
+      
+          <label for="rrn"><b>Roll Number</b></label>
+          <input type="number" placeholder="Enter rrn" name="rollnumber" required>
+
+          <label for="block"><b>Block Name</b></label>
+          <input type="text" placeholder="Enter block" name="blockname" required>
+
+          <label for="room"><b>Room number</b></label>
+          <input type="number" placeholder="Enter room" name="room number" required>
+
+          <label for="seat"><b>Seat number</b></label>
+          <input type="number" placeholder="Enter seat" name="seat number" required>
+</div>
+<div class="text-center"> 
+    <a href="#" class="btn btn-primary">Submit</a>
+</div>
+ 
+</form>
+</div>
+</body>
+</html>
